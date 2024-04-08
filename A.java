@@ -2,6 +2,10 @@ public class A {
     private int A1;
     private float A2;
 
+    public Integer getSoma(Integer a, Integer b) {
+        return a + b;
+    }
+
     public void setA1(int A1) {
         this.A1 = A1;
     }
